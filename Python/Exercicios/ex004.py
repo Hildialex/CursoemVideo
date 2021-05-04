@@ -1,0 +1,8 @@
+algo = input('Digite algo:')
+print('O tipo primitivo é {}{}'.format('\033[4;34;40m' ,type(algo)))
+print('\033[mContém espaços?{}{}'.format('\033[7;32m', algo.isspace()))
+print('\033[mÉ um número?{}{}'.format('\033[2;36;40m', algo.isnumeric()))
+print('\033[mÉ alfanumérico?{}'.format(algo.isalnum()))
+print('\033[mÉ alfabético?\033[5;37;46m',algo.isalpha())
+print('\033[mEstá capitalizada?\033[5;35;40m', algo.istitle())
+print('idahidah()hdahdaid()'.format(algo, algo))
