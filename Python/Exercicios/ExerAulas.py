@@ -38,3 +38,5 @@ print('----AULA 11-----')
 print('\033[0;33;44m Mudando a cor!')
 #\033[corresponde ao texto; cor do texto; cor do fundo ACABA COM LETRA 'M'
 
+print('--------AULA12----------')
+
