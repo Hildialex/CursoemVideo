@@ -2,6 +2,7 @@ print('CALCULANDO IMC')
 peso = float(input('Informe seu peso:'))
 alt = float(input('Informe sua altura:'))
 imc = peso / (alt**2)
+print('Seu IMC é {:.1f}'.format(imc))
 if imc < 18.5:
     print('Abaixo do peso!')
 elif imc <= 25:

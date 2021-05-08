@@ -7,9 +7,10 @@ if base == 1:
 elif base == 2:
     resp = oct(num)
     print('O número {}{}{} em octal é:{}{}{}'.format('\033[34m', num, '\033[m', '\033[35m', resp[2:], '\033[m'))
-else:
+elif:
     resp = hex(num)
     print('O número {}{}{} em hexadecimal é:{}{}{}'.format('\033[34m', num, '\033[m', '\033[35m', resp[2:], '\033[m'))
-
+else:
+    print('Opção Inválida!!')
 
 
