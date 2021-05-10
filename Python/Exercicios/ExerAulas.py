@@ -38,5 +38,8 @@ print('----AULA 11-----')
 print('\033[0;33;44m Mudando a cor!')
 #\033[corresponde ao texto; cor do texto; cor do fundo ACABA COM LETRA 'M'
 
-print('--------AULA12----------')
+print('--------AULA13---------')
+for c in range(0,5):contador de zero até 4
+for c in range(0,5,2):contador de zero até 4 pulando 2 em 2
+for c in range(7,0,-1):contador inverso de sete até 1
 
