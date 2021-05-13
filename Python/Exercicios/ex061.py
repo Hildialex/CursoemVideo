@@ -7,3 +7,12 @@ while n < 10:
     lista.append(termo)
     n += 1
 print('Os 10 primeiros termos dessa P.A. são {}'.format(lista))
+#*Solução Guanabara
+# primeiro = int(input('Digite Um número'))
+# termo = primeiro
+# cont = 1
+# while cont <= 10:
+#   print('{}¬'.format(termo), end ='')
+#   termo += razao
+#   cont += 1
+# #
