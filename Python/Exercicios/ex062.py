@@ -8,5 +8,8 @@ while n <= (decimo+razao):
     n += razao
     if n == (decimo+razao):
         novo = int(input('\nQuer mostrar mais termos? Digite o número de termos (0 para sair):'))
-        z += novo
-        decimo = termo + (10 + z - 1) * razao
+        if novo == 0:
+            break
+        else:
+            z += novo
+            decimo = termo + (10 + z - 1) * razao
