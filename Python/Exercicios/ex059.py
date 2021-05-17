@@ -5,7 +5,7 @@ while op != 5:
     print('''\033[4;36mMENU\033[m
     [1] SOMAR
     [2] MULTIPLICAR
-    [3] MAOIR
+    [3] MAIOR
     [4] NOVOS NÚMEROS
     [5] SAIR''')
     op = int(input('>>>>>Qual sua opção?'))

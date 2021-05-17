@@ -22,4 +22,5 @@ while True:
         resp = str(input('Quer cadastrar mais?')).strip().upper()[0]
     if resp == 'N':
         break
+print('*******FIM***********')
 print(f'Foram cadastrados:\n{homens} Homens.\n{mulheres} Mulheres abaixo de 20 anos.\n{maior} pessoas acima de 18 anos.')
