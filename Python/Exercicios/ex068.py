@@ -17,3 +17,25 @@ while True:
         break
 print(f'Game Over! Foram {cont} vitórias consecutivas!')
 print('*'*20)
+#* Solução Guanabara
+#  while True:
+#   ...
+#   tipo = ' '
+#   while tipo not in 'PI':
+#       tipo = str(input('Par ou Impar?')).strip().upper()[0]
+#   print(f'Voce jogou {jogador} e PC jogou {computador}.Total {tot}', end = ' ')
+#   print('Deu PAR' if tot%2==0 else 'Deu IMPAR')
+#   if tipo == 'P':
+#       if tot%2==0:
+#           print('VENCEU')
+#           vit += 1
+#       else:
+#           print('PERDEU')
+#           break
+#   elif tipo == 'I':
+#       if tot%2==1:
+#           print('VENCEU')
+#       else:
+#           print('PERDEU')
+#           break
+# #

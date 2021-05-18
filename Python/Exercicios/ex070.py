@@ -21,3 +21,7 @@ while True:
     if resp == 'N':
         break
 print(f'O total da compra R${total:.2f}.\n{mil} produtos acima de R$1000,00.\n{nome.upper()} é o produto mais barato custando R${barato:.2f}.')
+#* SolUção Gunabara pra pegar nome do mais barato
+# if cont == 0 or preco > barato:
+#   barato = preco
+#   nome = produto
