@@ -6,3 +6,12 @@ for pos in range(0, len(item)):
     if pos%2 == 0:
         print(f"{item[pos]}","."*20,f"R$ {float(item[pos+1]):.2f}")
 print('-'*40)
+#Solução Guanabara
+# print('-'*40)
+# print(f'{"Listagem de Preços":^40}')
+# print('-'*40)
+# for pos in range(0, len(lista)):
+#   if pos%2 == 0:
+#       print(f'{lista[pos]:.<40}', end='')
+#   else:
+#       print(f'R${lista[pos]:>5.2f})

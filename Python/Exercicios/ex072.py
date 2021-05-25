@@ -6,5 +6,11 @@ while True:
         num = int(input('Digite um número entre 0 e 20:'))
     else:
         print(f'Você digitou o número {contagem[num]}')
-        break
 
+#* Solução Guanabara
+#   while True:
+#       num = int(input('Digite um número:))
+#       if 0 <= num <= 20:
+#           break
+#       print('Tente novamente', end=' ')
+#  # 
