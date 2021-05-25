@@ -1,0 +1,5 @@
+brasileirao = ('Palmeiras', 'Chapecoense', 'Vasco', 'Atlético-MG', 'São Paulo', 'Santos', 'América-MG', 'Internacional', 'Grêmio', 'Náutico', 'Ceará', 'Fluminense','Flamengo','Cruzeiro','Botafogo', 'Bahia', 'Bragantino', 'Ponte Preta', 'Avaí', 'Corinthians')
+print(f'Os cincos primeiros: {brasileirao[:5]}')
+print(f'Os quatro últimos: {brasileirao[-4:]}')
+print(f'Em ordem alfabética {sorted(brasileirao)}')
+print(f"A posição da Chapecoense é {brasileirao.index('Chapecoense')+1}º lugar")

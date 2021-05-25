@@ -1,45 +1,35 @@
-import math
-num = int(input('Digite um número:'))
-raiz = math.sqrt(num)
-print('A raiz de {} é: {:.2f}'.format(num, raiz))
+#tuplas são imutáveis
+lanche = ('Hamburguer', 'Suco', 'Pizza', 'Pudim')
+#isso dá erro lanche[1] ='Arroz'
+print(lanche[-1])
+#lista
+lanche = []
+#dicionario
+lanche = {}
 
-#-----OUTRA MANEIRA-------
-from math import sqrt, floor
-num = int(input('Digite um número:'))
-raiz = sqrt(num)
-print('A raiz de {}  é: {:.2f}'.format(num, floor(raiz)))
-#--------------------------
+for cont in range(0, len(lanche)):
+    print(f'Eu vou comer {lanche[cont]}')
+#Sem precisar da posição do elemento os outros quando precisar
+for comida in lanche:
+    print(f'Eu vou comer {comida}')
+for pos, comida in enumerate(lanche):
+    print(f'Eu vou comer {comida} na posição {pos}')
 
-print('-----AULA09-------')
-frase = 'Curso em Video Python'
-print(frase[9])
-print(frase[1:5])
-print(frase[1:5:2])
-print(frase[:9], frase[8:], frase[9::2])
-print(frase.count('o'))
-print(frase.find('de'))
-print(frase.find('Android'))
-print('Curso' in frase)
-print(frase.replace('Python', 'Android'))
-print(frase.upper(),'\n',frase.lower(),'\n',frase.capitalize())
-print(frase.title(),'\nRemove espaços ante/depois',frase.strip(),'\nTemos tambem lstrip(), rstrip()')
-print(frase.split(),'-'.join(frase))
-print("""Nessa aula, vamos aprender operações com String no Python.
-As principais operações que vamos aprender 
-são o Fatiamento de String,
-Análise com len(), count(), find(), 
-ransformações com replace(), upper(), 
-lower(), capitalize(), 
-title(), strip(), junção com join().""")
-#UMA STRING È IMUTÀVEL EM PYTHON
-dividido = frase.split()
-print(dividido,'\n', dividido[0],'\n',dividido[0][3])
-print('----AULA 11-----')
-print('\033[0;33;44m Mudando a cor!')
-#\033[corresponde ao texto; cor do texto; cor do fundo ACABA COM LETRA 'M'
+#para ordenar em alfabeto
+print(sorted(lanche))
 
-print('--------AULA13---------')
-for c in range(0,5):contador de zero até 4
-for c in range(0,5,2):contador de zero até 4 pulando 2 em 2
-for c in range(7,0,-1):contador inverso de sete até 1
-
+a = (2,1,2,3)
+b = (12,3,4)
+c = a + b
+print(c)
+#Diferente do anterior
+c = b + a
+print(c)
+#mostra a posição do item na tupla
+print(c.index(12))
+#mostra a posição do item a partir da posição 1
+print(c.index(3, 1))
+#para apagar qualquer variavel
+del(lanche)
+#Quantidade de vezes que aparece o elemento
+print(c.count(3))
