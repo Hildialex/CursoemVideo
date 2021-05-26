@@ -16,3 +16,4 @@ if 5 in lista:
     print('O número 5 está na lista!')
 else:
     print('O número 5 NÃO está na lista!')
+

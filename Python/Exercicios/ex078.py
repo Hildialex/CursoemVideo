@@ -16,3 +16,13 @@ for pos, i in enumerate(lista):
 print(f'O maior valor digitado foi {maior} nas posições {resp}')
 print(f'O menor valor digitado foi {menor} nas posições {resp1}')
 
+#* Solução Guanabara
+# print(f'O maoir valor foi {maior} nas posiçoes ', end ='')
+# for i,v in enumerate(lista):
+#   if v == maior:
+#       print(f'{i}...', end='')
+# print(f'O menor valor foi {menor} nas posições ', end='')
+# for i, v in enumerate(lista): 
+#   if v == menor:
+#       print(f'{i}...', end='')
+# #
