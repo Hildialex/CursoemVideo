@@ -22,3 +22,8 @@ print('=-='*15)
 print(f'A soma dos valores pares: {par}')
 print(f'A soma dos valores da terceira coluna: {terceira}')
 print(f'O maior valor da segunda linha: {maior}')
+#*Solução Guanabara
+# NA HORA DE MOSTRAR ELE VERIFICOU QUAIS ERAM PAR
+# DEPOIS FEZ DOIS FOR, UM PARA SOMAR A COLUNA
+# OUTRO PARA COLUNA E ACHAR O MAIOR VALOR
+# #

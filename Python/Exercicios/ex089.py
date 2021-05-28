@@ -29,3 +29,13 @@ while flag != 999:
     for po, n in enumerate(boletim):
         if po == flag: 
             print(f'O aluno {n[0]} tirou {n[1]}')
+# sOLUÇÃO GUANABARA
+# ficha = list()
+# nome = str(input('Nome:'))
+# nota1 = float(input('Nota 1:'))
+# nota2 = float(input('Nota 2:'))
+# media = (nota1+nota2)/2
+# ficha.append(nome, [nota1, nota2], media)
+# for i, a enumerate(ficha):
+#   print(f'{i:<4} {a[0]:<10} {a[2]:8.1f}')
+# 

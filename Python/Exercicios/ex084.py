@@ -32,3 +32,20 @@ for nome, peso in galera:
 #Assim eu acesso apenas passando a posição
 #for nome, peso in enumerate(galera):
  #   print(nome, peso[1])
+# Solução Guanabara
+# temp = []
+# prin = []
+# mai = men = 0
+# while True:
+#   temp.append(str(input('nome:')))
+#   temp.append(float(input('peso:')))
+#   prin.append(temp[:])
+#   temp.clear()
+#   resp = str(input('Continua?'))
+#   if resp in 'nN':
+#       break
+# print(f'O maior peso foi {mai}. Peso de', end='')
+#   for p in pri:
+#       if p[1] == mai:
+#           print(f'[{p[0]}]', end ='')
+#

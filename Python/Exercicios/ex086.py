@@ -9,4 +9,14 @@ print('=-='*15)
 #Acesso direto ao conteudo de cada linha, colocando um indice para cada coluna
 for val, val1, val2 in matriz:
     print(f'[ {val} ]  [ {val1} ]  [ {val2} ]')
-    
+#* Solução Guanabara
+# matriz = [[0,0,0],[0,0,0],[0,0,0]]
+# for l range(0,3):
+#   for c in range(0,3):
+#       matriz[l][c] = int(input(f'Digite o valor de [{l}, {c}]'))
+# print('=-'*30)
+# for l in range(0,3):
+#   for c in range(0,3):
+#       print(f'[{matriz[l][c]:^5}]', end='')
+#   print()
+# #
