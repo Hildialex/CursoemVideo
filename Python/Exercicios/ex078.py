@@ -17,7 +17,7 @@ print(f'O maior valor digitado foi {maior} nas posições {resp}')
 print(f'O menor valor digitado foi {menor} nas posições {resp1}')
 
 #* Solução Guanabara
-# print(f'O maoir valor foi {maior} nas posiçoes ', end ='')
+# print(f'O maior valor foi {maior} nas posiçoes ', end ='')
 # for i,v in enumerate(lista):
 #   if v == maior:
 #       print(f'{i}...', end='')
