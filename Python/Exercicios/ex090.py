@@ -7,3 +7,4 @@ else:
     dados['Situacao'] = 'Aprovado'
 for k,v in dados.items():
     print(f'{k} é igual a {v}')
+

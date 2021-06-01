@@ -19,3 +19,4 @@ print(f'O jogador {nome} jogou {jogos} partidas.')
 for i in range(0, len(gols)):
     print(f'=> Na partida {i+1}, fez {gols[i]} gols.')
 print(f'Foi um total de {tot} gols.')
+#da pra usar sum() na lista para somar os valores
