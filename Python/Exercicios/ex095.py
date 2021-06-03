@@ -39,3 +39,18 @@ while flag != 999:
             print(f'Chave {flag} não encontrada!', end=' ')
     if flag == 999:
         break
+#Solução Guanabara
+# PARA MOSTRAR A LISTA
+# print('cod', end='')
+# for i in jogador.keys():
+#    print(f'{i:<15}', end='')
+# print()
+# print('-'*40)
+# for k,v in enumerate(time):
+#       print(f'{k:>3} ', end='')
+#       for d in v.values():
+#           print(f'{str(d):<15}', end='')
+#       print()
+# print('-'*40)
+# 
+# #
