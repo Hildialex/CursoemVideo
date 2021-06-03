@@ -1,6 +1,6 @@
 from random import randint
 def sorteia(lst):
-    for i in range(0,4):
+    for i in range(0,5):
         num = randint(1,100)
         lst.append(num)
     print(f'Os valores sorteados foram:{lst}')

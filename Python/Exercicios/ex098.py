@@ -1,35 +1,50 @@
 from time import sleep
 def contador(inicio, fim, passo):
-    print('A-', '-'*20)
-    for i in range(1,11,1):
-        print(f'{i} ', end='', flush=True)
-        sleep(0.5)
-    print('FIM')
-    print('B-', '-'*20)
-    for i in range(10,-1, -2):
-        print(f'{i} ', end='', flush=True)
-        sleep(0.5)
-    print('FIM')
-    print('C-', '-'*20)
-    print('Agora sua vez de personalizar.')
-    inicio = int(input('Início:'))
-    fim = int(input('Fim:'))
-    passo = int(input('Passo:'))
-    if fim < inicio:
-        if passo == 0:
-            c = -1
-        elif passo < 0:
-            c = passo
-        else:
-            c = passo * -1
-    else:
+    if passo == 0:
+        c = 1
+    if passo < 0:
+        c = passo * -1
+    if passo > 0:
+        c = passo
+    print('-='*10)
+    print(f'Contagem de {inicio} até {fim} de {passo} a {passo}')
+    if inicio > fim and passo > 0:
+        c = passo * -1
+    else: 
         c = passo
     a = inicio
     b = fim
     for i in range(a, b+c, c):
         print(f'{i} ',end='', flush = True)
-        sleep(0.5)
-    print('FIM')
+        sleep(0.3)
+    print('FIM!')
+    print('-=-'*10)
 
+contador(1,10,1)
+contador(10,0,2)
+print('Agora é sua vez!')
+ini = int(input('Início:'))
+fim = int(input('Fim:'))
+pas = int(input('Passo:'))
+contador(ini, fim, pas)
 
-contador(0,0,0)
+# Solução Guanabara
+# if p < 0: 
+#   p *= -1
+# if p == 0:
+#   p = 1
+# if i < f:
+#   cont = 1
+#   while cont <= f:
+#       print(f'{cont}', end='', flush=True)
+#       sleep(0.5)
+#       cont += p
+#   print('FIM!')
+# else:
+#   cont = i 
+#   while cont >= f:
+#       print(f'{cont}', end='', flush=True)
+#       sleep(0.5)
+#       cont -= p
+#   print('FIM!')
+#
