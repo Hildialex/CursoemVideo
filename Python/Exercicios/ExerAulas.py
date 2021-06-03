@@ -67,3 +67,28 @@ for c in range(0,3):
    #Assim da erro pq não copia brasil.append(estado[:])
     brasil.append(estado.copy())
 print(brasil)
+#FUNÇOES toda passagem de parametro é por referencia
+def soma(a,b):
+    print(f'A = {a} e B = {b}')
+    s = a + b
+    print(f'A some de A+B = {s}')
+
+soma(4,5)
+soma(a=4, b=5)
+#O * significa que ele vai desempacotar, para receber varios parametros
+def contador(*num):
+    tam = len(num)
+    print(f'Recebi os valores {num} e são {tam} números')
+
+contador(2,3,4,5)
+contador(9,9)
+contador(9)
+
+def dobra(lst):
+    pos = 0
+    while pos > len(lst):
+        lst[pos] *= 2
+        pos += 1
+
+valores = [2,3, 4, 5]
+dobra(valores)
