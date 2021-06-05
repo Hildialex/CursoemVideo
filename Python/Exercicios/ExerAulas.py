@@ -92,3 +92,36 @@ def dobra(lst):
 
 valores = [2,3, 4, 5]
 dobra(valores)
+#Interactive Help = é uma maneira de usar uma ajuda
+help(print)
+help(input)
+print(input.__doc__)
+#DocStrings = é como um manual para explicar o comando
+def contador(i,f,p):
+    """
+    Aqui inicia a docString
+    -> Faz uma contagem e mostra na tela
+    param i : inicio da contagem
+    param f: fim da contagem
+    param p: passo da contagem
+    """
+    c = i
+    while c <= f:
+        print(f'{c}', end='')
+        c += p
+    print('FIM')
+help(contador)
+#PARAMETROS OPCIONAIS = colocando c=0 estou dizendo que é opcional, sendo assim na chamada da função posso ou nao informa-lo, todos podem ser opcionais tbm
+#def somar(a=0,b=0,c=0)
+def somar(a,b,c=0):
+    s = a+b+c
+    print(f'A soma vale{s}')
+#ESCOPO DE VARIÁVEIS = local onde a variavel vai existir e onde não vai
+def fatorial(num=0):
+    f = 1
+    for c in range(num, 0, -1):
+        f *= c
+    return f
+
+n = int(input('Número:'))
+print(f'Os resultados são {n}')
