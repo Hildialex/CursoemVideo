@@ -28,3 +28,11 @@ def metade(n=0, formatar=False):
     if formatar:
         return moeda(res)
     return res
+# Solução Guanabara
+# def metade(preco=0, formato=False):
+#   res = preco / 2
+#   return res if not formato else moeda(res)
+# 
+# def dobro(preco=0, formato=False):
+#   res = preco * 2
+#   return res if formato is False else moeda(res)

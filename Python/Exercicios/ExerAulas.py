@@ -125,3 +125,23 @@ def fatorial(num=0):
 
 n = int(input('Número:'))
 print(f'Os resultados são {n}')
+
+#AULA 23
+#Pode-se utilizar try, except sem else e finally, também com apenas except na frente dele criamos a variavel que recebe o erro
+try:
+    a = int(input('Numerador:'))
+    b = int(input('Denominador:'))
+    r = a / b
+except (ValueError, TypeError):
+    print('Tivemos um problema com os tipos de dados que você digitou')
+except ZeroDivisionError:
+    print('Não é possível dividir por zero')
+except KeyboardInterrupt:
+    print('Usuário não quis continuar')
+except Exception as erro:
+    print(f'O erro foi {erro.__class__}')
+else:
+    print(f'O resultado é {r}')
+finally:
+    print('Volte Sempre!')
+
