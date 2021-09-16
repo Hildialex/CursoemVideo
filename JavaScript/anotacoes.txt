@@ -1,0 +1,36 @@
+##Bibliografia##
+>JavaScript o guia definitivo;
+>JavaScript guia do programador;
+>Guia de referencia da Mozilla e da ECMA.
+
+##Tipos Primitivos##
+>Para saber os tipos usa-se -typeof-
+Number: Contem float e integer
+    infinity
+    NaN
+Boolean: True ou False, igual nos outros
+String: Palavras, igual nos outros
+Null: é um object
+Undefined: é um Undefined
+Object: é um objeto, uma classe
+    Array
+Function: função
+
+##Conversões de tipos##
+String em Inteiro> Number.parseFloat(), Number.parseInt(); ou apenas Number(aqui ele já identifica se foi digitado float ou int)
+Numero em String> String(), v.toString()
+
+##Operador de Incremento##
+Posso fazer com x++ ou ++x; isso é pos incremento é pre incremento
+Operador de identidade verifica se possuem o mesmo tipo 5 === '5'(False) 5 == '5' (True)
+Operador Logico: Ordem primeiro não, e, ou.
+    !  > Não
+    && > E
+    || > OU
+Ordem de precedencia: Primeiro operadores aritmeticos, depois relacionais e por ultimo logicos;
+Operador Ternário: 
+    ? e : EX> Teste ? True : False; media = 7  media >= 7 ? 'Aprovado': 'Reprovado'
+
+##DOM(Document Object Model)##
+Usado para acessar os elementos da pagina, sem ele não da para acessar os elementos,
+cada pagina possui seu proprio DOM.

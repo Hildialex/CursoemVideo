@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(97, 177, 150, 0.582);
+            color:rgba(241, 231, 229, 0.582);
+            font: normal 10pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de manipulação do DOM</h1>
+    <p>O dom segue uma arvore de hierarquia, onde quem está <strong> acima </strong> e pai do elemento abaixo, também é possivel modificar elementos do página atraves dele.</p>
+    <p>Cada <tag html></tag> acompanha essa hierarquia. </p>
+    <div class='msg'>COISAS</div>
+    <script>
+        var corpo = window.document.body //Aqui atribuimos a uma variavel todo body que pode ser modificado.
+        var p1 = window.document.getElementsByTagName('p')[0] //Aqui apenas a primeira tag <p> pode ser alterada, devido ao uso de [0].
+        corpo.style.background = 'black'
+        window.document.write('Esta escrito assim: '+ p1.innerText)//Aqui escrevo o conteudo de p1 sem formatação
+        p1.style.color = 'blue'
+        window.document.write('Esta escrito assim com formatação: '+ p1.innerHTML)
+        //Aqui é a nova forma de fazer
+        var d = window.document.querySelector('div.msg')//Usa-se . para class e # para id
+        d.style.background = 'red'
+    </script>
+</body>
+</html>

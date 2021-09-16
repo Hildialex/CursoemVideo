@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual é seu nome?')
+        document.write(`Olá ${nome}, bem vindo!<br>`)
+        document.write(`Seu nome em maiúsclas é:${nome.toUpperCase()}<br>`)
+        var salario = 1800.003
+        document.write(`Seu salário é de ${salario.toFixed(2).replace('.',',')}`)//Aqui coloca duas casa apos a virgula
+        document.write(`Seu salário em reais é:${salario.toLocaleString('pt-BR', {style:'currency', currency:'BRL'})}`)//Aqui adiciona o R$ a frente, pode colocar em qualquer outra moeda
+    </script>
+</body>
+</html>
