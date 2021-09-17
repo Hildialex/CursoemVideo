@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pais</title>
+</head>
+<body>
+    <h1>Onde mora?</h1>
+    <input type="text" name="txtPais" id="txtPais"> <input type="button"  value="Confirmar" onclick="moraOnde()">
+    <div id="resp">
+
+    </div>
+    <script>
+        function moraOnde(){
+            var txt = window.document.querySelector("input#txtPais")
+            var pais = txt.value
+            var res = window.document.querySelector("div#resp")
+            if(pais == "Brasil"){
+                res.innerHTML = `<p> Voce mora no ${pais}, Por isso é Brasileiro!</p>`
+            }else{
+                res.innerHTML = `<p> Voce mora no ${pais}, então é <strong>estrangeiro</strong></p>`
+            }
+        }
+    </script>
+</body>
+</html>
