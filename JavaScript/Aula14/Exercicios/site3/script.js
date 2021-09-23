@@ -14,7 +14,7 @@ function repeticao() {
     } else {
         if (fim < inicio) {
             for (let i = inicio; i >= fim; i -= passo) {
-                frase += i
+                frase += i 
                 frase += String.fromCodePoint(0x1F525)
             }
         } else {
@@ -23,7 +23,7 @@ function repeticao() {
                 frase += String.fromCodePoint(0x1F525)
             }
         }
-        //frase += String.fromCodePoint(x1F3C1)
+        frase += String.fromCodePoint(0x1F3C1)
         resp.innerHTML = frase
     }
 
