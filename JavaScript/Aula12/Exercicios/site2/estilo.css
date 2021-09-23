@@ -1,0 +1,26 @@
+body{
+    background: rgba(137, 43, 226, 0.582);
+    font: 15pt normal Arial;
+}
+header{
+    color:aliceblue;
+    text-align: center;
+    font-style: oblique;
+}
+section{
+    background-color: beige;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.644);
+}
+img{
+    border-radius: 35%;
+    align-items:flex-end;
+}
+footer{
+    text-align: center;
+    color: aliceblue;
+}
